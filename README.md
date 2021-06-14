@@ -47,3 +47,5 @@ O email tem que ser válido e o telefone deve estar formatado no padrão: (xx) x
 O arquivo `Animais.csv` tem uma coluna contendo o nome da `espécie`, o seu script deve verificar se existe uma espécie com esse nome, caso exista, deve usar o ID dela para associar ao animal que será inserido. Caso não exista, o seu script deve criar uma nova espécie, pegar o ID que acabou de ser inserido e criar o animal com essa espécie.
 
 A mesma lógica deve ser usada para o campo `Raça`.
+
+Ps: Faça um commit a cada função de terminar, não faça um commit grande com tudo... isso nos ajuda a entender o processo de desenvolvimento.
