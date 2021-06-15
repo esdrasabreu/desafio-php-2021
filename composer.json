@@ -1,0 +1,28 @@
+{
+    "name": "esdrasabreu/desafio-php-2021",
+    "description": "importação de dados ComplicadoVet",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "esdrasabreu",
+            "email": "xstrikeesdraspb@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "coffeecode/datalayer":"^1.1",
+        "fzaninotto/faker":"1.8.*",
+        "league/csv":"9.3.*"
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\":"source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    }
+}
